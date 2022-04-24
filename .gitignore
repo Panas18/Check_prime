@@ -2,8 +2,8 @@
 .mypy_cache
 .vscode
 venv
-Check_If_Prime/__pycache__
+Check_If_Prime/__pycache__/
 
 ## packages
 Check_If_Prime.egg-info
-dist
+dist/
