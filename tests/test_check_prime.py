@@ -1,6 +1,5 @@
 import unittest
 import sys
-sys.path.append("/home/panas/programming/python/python_learning/check_prime")
 from Check_If_Prime import check_prime
 
 
