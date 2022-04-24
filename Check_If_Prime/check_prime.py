@@ -2,7 +2,7 @@ def check_prime(num) -> bool:
     """checks whether the given number is prime or not
 
     Args:
-                    num (int)): positive integer
+                    num (int): positive integer
 
     Returns:
                     bool: True if num is prime else False
@@ -12,4 +12,10 @@ def check_prime(num) -> bool:
         for i in range(2, num):
             if (num % i) == 0:
                 return False
+    elif num < 0:
+        raise ValueError("Number must be an integer")
+
     return True
+
+
+print(check_prime(-6))
