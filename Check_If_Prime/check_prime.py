@@ -13,9 +13,6 @@ def check_prime(num) -> bool:
             if (num % i) == 0:
                 return False
     elif num < 0:
-        raise ValueError("Number must be an integer")
+        raise ValueError("Number must be a positive  integer")
 
     return True
-
-
-print(check_prime(-6))
