@@ -1,0 +1,8 @@
+## untrack file
+.mypy_cache
+.vscode
+venv
+
+## packages
+Check_If_Prime.egg-info
+dist
